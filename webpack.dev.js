@@ -33,6 +33,7 @@ const config = {
     resolve: {
         extensions: ['', '.js', '.jsx']
     },
+    devtool: 'cheap-source-map',
     plugins: [
         new webpack.HotModuleReplacementPlugin()
     ]
